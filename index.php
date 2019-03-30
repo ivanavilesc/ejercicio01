@@ -17,6 +17,7 @@ and open the template in the editor.
         
         <!-- ############# HEADER ###################### -->
         <div id="titulo">
+            <img src="img/Logo_DuocUC.jpg" alt="" height="100px" width="135px"/>
             <h2><center>Titulo</center></h2>
         </div>
         <!-- ############# MENU ###################### -->
@@ -25,6 +26,9 @@ and open the template in the editor.
         </div>
         
         <!-- ############# CONTENIDO ###################### -->
+        <div id="titcontenido">
+            
+        </div>
         <div id="contenido">
             
         </div>
