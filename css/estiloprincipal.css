@@ -9,9 +9,12 @@ and open the template in the editor.
 */
 a.submenu{
     /*margin: 0 0 0 20px;*/
-    padding: 0 0 0 60px;
+    padding: 0 0 0 45px;
+    height: 30px;
+    display:none;
+    alignment-adjust: central;
+    
 }
-
 
 a:hover{
     background: black;

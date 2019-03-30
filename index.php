@@ -7,12 +7,13 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">  
-        <?php include('./lib/constantes.php'); ?>
+        <?php include('./lib/constantes.php'); ?>        
+        <title><?=sitename;?></title>        
+        <?php include('./frame.php');?>
         
-        <title><?=sitename;?></title>
         
-        <?php include('./frame.php');
-        ?>
+        
+        
         
     </head>
     <body>
@@ -40,4 +41,62 @@ and open the template in the editor.
             <p>Hola, este texto está en fuente Ubuntu !</p>
         </div>
     </body>
+    <script>
+        $("#opcionprincipal1").on( "click", function( event ) {
+            if(($("#subopcion1b").css("display")!=="none")){
+                 $("#subopcion1b").css("display","none");
+            }
+            else{
+                $("#subopcion1b").show();
+                $("#subopcion1b").css("display","block");
+            }               
+                
+        });
+        
+        $("#opcionprincipal1").on( "click", function( event ) {
+            if(($("#subopcion1a").css("display")!=="none")){
+                 $("#subopcion1a").css("display","none");
+            }
+            else{
+                $("#subopcion1a").show();
+                $("#subopcion1a").css("display","block");
+            }               
+                
+        });
+        
+        $("#opcionprincipal1").on( "click", function( event ) {
+            if(($("#subopcion1c").css("display")!=="none")){
+                 $("#subopcion1c").css("display","none");
+            }
+            else{
+                $("#subopcion1c").show();
+                $("#subopcion1c").css("display","block");
+            }               
+                
+        });
+        
+        $("#opcionprincipal2").on( "click", function( event ) {
+            if(($("#subopcion2").css("display")!=="none")){
+                 $("#subopcion2").css("display","none");
+            }
+            else{
+                $("#subopcion2").show();
+                $("#subopcion2").css("display","block");
+            }               
+                
+        });
+        
+        $("#opcionprincipal3").on( "click", function( event ) {
+            if(($("#subopcion3").css("display")!=="none")){
+                 $("#subopcion3").css("display","none");
+            }
+            else{
+                $("#subopcion3").show();
+                $("#subopcion3").css("display","block");
+            }               
+                
+        });
+        
+        $('[data-toggle="tooltip"]').tooltip();
+        </script>
 </html>
