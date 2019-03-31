@@ -29,7 +29,38 @@
             <center><h3>Titulo de Pagina</h3></center>
         </div>
         <div id="contenido">
-            <h3>Ingresos - Productos.php</h3></p>
+            <h3>Ingreso de Productos</h3></p>
+        <br>
+        <div class="container">            
+            <table class="table">
+                
+                <tbody>
+                    <tr>
+                        <td>Nro Producto</td>
+                        <td><div class="col-xs-4">
+                                <input type="text" length="30" class="form-control" id="nroproducto">
+                            </div>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td><div class="col-xs-6">
+                                <input type="text" length="30" class="form-control" id="nombreproducto">
+                            </div></td>                        
+                    </tr>
+                    <tr>
+                        <td>Precio</td>
+                        <td><div class="col-xs-6">
+                                <input type="text" length="30" class="form-control" id="precioproducto">
+                            </div></td>                          
+                    </tr>
+                    <tr>
+                        <td><button type="button" class="btn btn-primary">Guardar datos</button></td>
+                        <td>                      
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         </div>
 
     </body>    
