@@ -11,10 +11,6 @@ and open the template in the editor.
         <title><?=sitename;?></title>        
         <?php include('./frame.php');?>
         
-        
-        
-        
-        
     </head>
     <body>
         <?php
@@ -35,7 +31,7 @@ and open the template in the editor.
         
         <!-- ############# CONTENIDO ###################### -->
         <div id="titcontenido">
-            <center><h2>Titulo de Pagina</h2></center>
+            <center><h3>Titulo de Pagina</h3></center>
         </div>
         <div id="contenido">
             <p>Hola, este texto está en fuente Ubuntu !</p>
